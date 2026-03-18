@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.stud_image{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+     cursor: pointer;
+    box-shadow: 0px 0px 30px rgb(36, 35, 35);
+}
+.Header_container{
+    height: 80px;
+    width: 100%;
+    background: rgb(66, 41, 211);
+    box-shadow: 0px 0px 30px rgb(99, 85, 85);
+    color: white;
+}
+.Header_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.student_image{
+    margin-left:20px;
+    user-select: none;
+}
+.heading{
+    font-style: italic;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px black;
+    user-select: none;
+    cursor: pointer;
+}
+.home_container{
+    margin: 50px;
+}
+.student_list{
+    margin-bottom: 20px;
+    color: blue;
+    user-select: none;
+}
+.add_btn{
+    height: 33px;
+    width: 150px;
+    color: white;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 5px rgb(195, 186, 186);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.stud_table{
+    border: 1px solid rgb(226, 213, 213);
+    width: 100%;
+    /* height: 100%; */
+    user-select: none;
+    border-radius: 4px;
+}
+.stud_table tr{
+    border:  1px solid black;
+}
+.stud_table th{
+    color: blue;
+    font-style: italic;
+    padding: 10px;
+    font-size: 20px;
+    user-select: none;
+    background-color: rgb(13, 236, 9);
+    color: white;
+    text-shadow: 1px 1px 1px rgb(215, 205, 205);
+    border: 1px solid rgb(176, 161, 161);
+}
+.stud_table td{
+    text-align: center;
+    color: black;
+    padding: 12px;
+    font-size: 17px;
+    border: 1px solid rgb(240, 233, 233);
+}
+.stud_table td:hover{
+    border: 1px solid rgb(195, 176, 176);
+}
+.stud_table tr:nth-child(odd){
+    background-color: rgb(249, 245, 245);
+}
+.stud_table .edit_btn{
+    color: blue;
+    cursor: pointer;
+}
+.stud_table .edit_btn:hover{
+    transform: scale(1.3);
+    text-decoration: underline;
+    border: none;
+}
+.stud_table .delete_btn{
+    color: red;
+    cursor: pointer;
+}
+.stud_table .delete_btn:hover{
+    transform: scale(1.3);
+    text-decoration: line-through;
+    border: none;
+}
+.add_form_container{
+    border: 1px solid rgb(203, 184, 184);
+    padding:  30px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgb(165, 153, 153);
+    border-radius: 5px;
+}
+.add_form_input_details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.add_form_input_details input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"]{
+    height: 35px;
+    padding: 10px;
+}
+.add_form_heading{
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input_field label{
+    font-size: 17px;
+}
+.add_stud_btn{
+     height: 33px;
+    width: 150px;
+    color: white;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 5px rgb(195, 186, 186);
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.input_radio label{
+    font-size: 17px;
+}
+.input_radio input[type="redio"]{
+   margin: 20px;
+}
+.input_radio{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.radio_btn{
+    display: flex;
+    gap: 5px;
+}
+.add_form_container{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.student_update_form{
+    border: 1px solid rgb(203, 184, 184);
+    padding:  30px;
+    width: 450px;
+    box-shadow: 0px 0px 10px rgb(165, 153, 153);
+    border-radius: 5px;
+}
+.student_update input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"]{
+    height: 35px;
+    padding: 10px;
+}
+.stud_update_field{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.update_student_heading{
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+}
+.student_update{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stud_update_field label{
+    font-size: 17px;
+    margin-top: 10px;
+}
+.stud_update_radio_field{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.update_stud_btn{
+    height: 33px;
+    width: 150px;
+    color: white;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 5px rgb(195, 186, 186);
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.student_update_form{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.input_field{
+    margin-bottom: 10px;
+}
+.cancle_bn{
+    height: 33px;
+    width: 150px;
+    color: white;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 5px rgb(195, 186, 186);
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.stud_update_btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input_add_btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
